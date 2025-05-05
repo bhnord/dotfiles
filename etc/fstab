@@ -5,4 +5,4 @@
 
 ## setup your partitions here 
 # /mnt/pi-nas
-//100.69.140.121/shared /mnt/pi-nas cifs x-gvfs-show,noperm,iocharset=utf8,x-systemd.automount,x-systemd.requires=tailscaled.service,x-systemd.idle-timeout=60,x-systemd.mount-timeout=30,username=beef-brisket,password=shared_files 0 0
+//<SAMBA_SHARE_LOCATION> /mnt/pi-nas cifs x-gvfs-show,noperm,iocharset=utf8,x-systemd.automount,x-systemd.requires=tailscaled.service,x-systemd.idle-timeout=60,x-systemd.mount-timeout=30,username=<USERNAME>,password=<PASSWORD> 0 0
