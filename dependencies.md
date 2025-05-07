@@ -25,6 +25,7 @@
 - slurp (select portion of screen)
 - grim (screenshots)
 - wl-clipboard (clipboard)
+- hyprpicker (color picker)
 
 
 
