@@ -14,6 +14,7 @@
 - zsh, oh-my-zsh
 - pipewire (and all the needed packages -> https://wiki.archlinux.org/title/PipeWire)
     - note: requires a restart
+- networkmanager
 
 ## Nice to Have
 - steam [link](https://wiki.archlinux.org/title/Steam)
@@ -26,6 +27,7 @@
 - grim (screenshots)
 - wl-clipboard (clipboard)
 - hyprpicker (color picker)
+- [lushwal for nvim](https://github.com/oncomouse/lushwal.nvim)
 
 
 
