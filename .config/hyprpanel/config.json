@@ -10,7 +10,7 @@
   "theme.bar.buttons.separator.margins": "0.15em",
   "theme.bar.buttons.battery.enableBorder": false,
   "theme.bar.menus.monochrome": false,
-  "wallpaper.pywal": true,
+  "wallpaper.pywal": false,
   "theme.bar.transparent": true,
   "theme.notification.background": "#11111b",
   "theme.notification.opacity": 100,
