@@ -37,7 +37,8 @@
 - [lushwal for nvim](https://github.com/oncomouse/lushwal.nvim)
   - colors for LazyVim
 - tlp (manage battery usage)
-- hyprpanel? (need to see if works well)
+- ags-hyprpanel-git? (need to see if works well)
+  - ags-hyprpanel-git
 
 ## Yay Dependencies ?
 
@@ -53,4 +54,8 @@
 
 ## make sure to run 
 - wal -i ///some-picture-file
+
+
+setup network manager timezones
+https://wiki.archlinux.org/title/NetworkManager#Automatically_set_the_timezone
 

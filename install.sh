@@ -14,10 +14,10 @@ packages=(
   wlogout
   python-pywal16
   nwg-look
+  rofi
   rofi-lbonn-wayland-git
   rofi-calc
   zoom
-  aseprite
   pipes.sh
   firefox
   nvim
