@@ -51,4 +51,6 @@
 - add `brown_city_planet_w.jpg` to ~/Pictures/Wallpapers
 - copy all scripts to Documents/scripts
 
+## make sure to run 
+- wal -i ///some-picture-file
 
