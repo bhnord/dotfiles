@@ -37,7 +37,7 @@
   "scalingPriority": "gdk",
   "bar.launcher.autoDetectIcon": false,
   "menus.media.displayTime": false,
-  "wallpaper.image": "/home/bhnord/Pictures/Wallpapers/bunnies.png",
+  "wallpaper.image": "/home/bhnord/Pictures/Wallpapers/mac_mountain.jpg",
   "bar.clock.showIcon": false,
   "bar.clock.showTime": true,
   "bar.clock.format": "%I:%M:%S %p",
@@ -47,5 +47,55 @@
   "bar.customModules.storage.paths": [
     "/"
   ],
-  "bar.workspaces.monitorSpecific": false
+  "bar.workspaces.monitorSpecific": false,
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "network",
+        "bluetooth",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  }
 }

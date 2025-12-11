@@ -1,4 +1,7 @@
 .config/discord/
 .config/go/
 .config/dconf
-
+.config/Signal
+.config/obsidian
+.config/pulse
+.config/spotify

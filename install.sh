@@ -3,38 +3,41 @@
 # List of packages
 packages=(
   hyprland-git
-  ly
-  kitty
-  waypaper
-  swaync
-  hyprpaper
-  hyprsunset
-  hyprlock
+  ly             # login manager
+  kitty          # shell
+  waypaper       # wallpapers
+  swaync         # notification daemon
+  hyprpaper-git  # wallpapers
+  hyprsunset-git # blue light filter
+  hyprlock-git   # lockscreen
   udiskie
   wlogout
   python-pywal16
-  nwg-look
+  #  nwg-look # gtk-settings editor
   rofi
-  rofi-lbonn-wayland-git
-  rofi-calc
-  zoom
-  pipes.sh
-  firefox
+  #   rofi-calc # does this work?
+  #  zoom
+  #  pipes.sh
+  #  firefox
   nvim
-  discord
-  obsidian
-  steam
-  nautilus
-  eog
-  evince
-  decibels
-  blueberry
+  #  discord
+  #  obsidian
+  #  steam
+  nautilus       # document view
+  pipewire       # audio
+  pipewire-alsa  # audio
+  pipewire-pulse # audio
+  wireplumber    # audio
+  eog            # image viewer
+  evince         # document viewer: pdf, postscript
+  decibels       # audio file player (nicer than ffmpeg)
+  # blueberry # bluetooth audio
   pavucontrol
   network-manager-applet
   neofetch
-  cava
-  bibata-cursor-theme
-  adw-gtk-theme
+  cava # audio bar visualizer
+  # bibata-cursor-theme
+  # adw-gtk-theme
 )
 
 sudo pacman -Sy --noconfirm

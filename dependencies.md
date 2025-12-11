@@ -18,6 +18,9 @@
 - brightnessctl
 - zsh, oh-my-zsh
 - pipewire (and all the needed packages -> [pipewire wiki](https://wiki.archlinux.org/title/PipeWire))
+  - pipewire-alsa
+  - pipewire-pulse
+  - wireplumber
   - note: requires a restart
 - networkmanager
 
