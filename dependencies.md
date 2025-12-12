@@ -14,7 +14,7 @@
 
 - yay (aur package manager)
 - zsh (make default with chsh -s /bin/zsh)
-- xdg-desktop-portal-hyprland (screen share)
+- xdg-desktop-portal-hyprland-git (screen share)
 - brightnessctl
 - zsh, oh-my-zsh
 - pipewire (and all the needed packages -> [pipewire wiki](https://wiki.archlinux.org/title/PipeWire))

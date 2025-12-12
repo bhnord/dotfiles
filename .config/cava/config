@@ -259,14 +259,14 @@
 #gradient_color_8 = '#FFF7C0'  # very light orange
 
 gradient = 1
-gradient_color_1 = "#1d0c1d"
-gradient_color_2 = "#3E6182"
-gradient_color_3 = "#677493"
-gradient_color_4 = "#8D7A97"
-gradient_color_5 = "#C47E83"
-gradient_color_6 = "#7684A2"
-gradient_color_7 = "#A497AC"
-gradient_color_8 = "#c6c2c6"
+gradient_color_1 = "#0d0d1f"
+gradient_color_2 = "#A16A4C"
+gradient_color_3 = "#BB7751"
+gradient_color_4 = "#B38C57"
+gradient_color_5 = "#DA8C5B"
+gradient_color_6 = "#FD9E64"
+gradient_color_7 = "#DDAF67"
+gradient_color_8 = "#c2c2c7"
 
 #gradient = 1
 #gradient_color_1 = '#FF0000'  # bright red
