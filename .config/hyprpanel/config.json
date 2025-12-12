@@ -47,7 +47,7 @@
   "bar.customModules.storage.paths": [
     "/"
   ],
-  "bar.workspaces.monitorSpecific": false,
+  "bar.workspaces.monitorSpecific": true,
   "bar.layouts": {
     "0": {
       "left": [
