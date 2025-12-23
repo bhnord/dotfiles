@@ -8,3 +8,12 @@
 .config/FreeCAD
 .config/Unknown Organization
 .config/QtProject.conf
+.config/gh
+.config/godot
+.config/unity3d
+.config/Electron
+.config/easyeffects
+.config/systemd**
+.config/pipewire
+.config/Moonlight Game Streaming Project
+
