@@ -5,11 +5,11 @@ packages=(
   hyprland-git
   ly             # login manager
   kitty          # shell
-  waypaper       # wallpapers
+  #  waypaper       # wallpapers
   swaync         # notification daemon
-  hyprpaper-git  # wallpapers
-  hyprsunset-git # blue light filter
-  hyprlock-git   # lockscreen
+  #  hyprpaper-git  # wallpapers
+  #  hyprsunset-git # blue light filter
+  #  hyprlock-git   # lockscreen
   udiskie
   wlogout
   python-pywal16
@@ -35,7 +35,7 @@ packages=(
   pavucontrol
   network-manager-applet
   neofetch
-  cava # audio bar visualizer
+  #  cava # audio bar visualizer
   # bibata-cursor-theme
   # adw-gtk-theme
 )
