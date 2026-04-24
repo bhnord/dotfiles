@@ -16,4 +16,5 @@
 .config/systemd**
 .config/pipewire
 .config/Moonlight Game Streaming Project
+.config/yarn
 
