@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Last Train Outta' Wormtown
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/2318480
+Icon=steam_icon_2318480
+Terminal=false
+Type=Application
+Categories=Game;

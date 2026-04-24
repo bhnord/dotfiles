@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Darkest Dungeon®
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/262060
+Icon=steam_icon_262060
+Terminal=false
+Type=Application
+Categories=Game;
