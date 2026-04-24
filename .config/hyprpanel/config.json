@@ -7,7 +7,7 @@
   "theme.bar.buttons.separator.margins": "0.15em",
   "theme.bar.buttons.battery.enableBorder": false,
   "theme.bar.menus.monochrome": false,
-  "wallpaper.pywal": false,
+  "wallpaper.pywal": true,
   "theme.bar.transparent": true,
   "theme.notification.background": "#11111b",
   "theme.notification.opacity": 100,
@@ -21,7 +21,7 @@
   "theme.bar.buttons.windowtitle.enableBorder": false,
   "theme.bar.buttons.workspaces.enableBorder": false,
   "bar.workspaces.show_icons": false,
-  "bar.workspaces.show_numbered": false,
+  "bar.workspaces.show_numbered": true,
   "bar.workspaces.showWsIcons": false,
   "bar.workspaces.applicationIconOncePerWorkspace": true,
   "bar.workspaces.workspaceMask": false,
@@ -30,17 +30,21 @@
   "theme.matugen_settings.mode": "dark",
   "theme.matugen_settings.scheme_type": "fidelity",
   "theme.matugen_settings.variation": "standard_1",
-  "wallpaper.enable": false,
+  "wallpaper.enable": true,
   "menus.clock.time.military": false,
   "menus.clock.time.hideSeconds": true,
   "menus.clock.weather.location": "Boston",
   "scalingPriority": "gdk",
   "bar.launcher.autoDetectIcon": false,
   "menus.media.displayTime": false,
-  "wallpaper.image": "/home/bhnord/Pictures/Wallpapers/fire-skull.jpg",
+  "wallpaper.image": "/home/bhnord/Pictures/Wallpapers/manga.png",
   "bar.clock.showIcon": false,
   "bar.clock.showTime": true,
   "bar.clock.format": "%I:%M:%S %p",
+  "panel": {
+    "pasthrough": true,
+    "exclusive": true
+  },
   "menus.dashboard.powermenu.avatar.image": "/home/bhnord/Pictures/Wallpapers/3squares.png",
   "menus.dashboard.shortcuts.left.shortcut1.command": "firefox",
   "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Firefox",
@@ -60,9 +64,6 @@
       ],
       "right": [
         "volume",
-        "network",
-        "bluetooth",
-        "systray",
         "clock",
         "notifications"
       ]
@@ -78,6 +79,9 @@
       ],
       "right": [
         "volume",
+        "network",
+        "bluetooth",
+        "systray",
         "clock",
         "notifications"
       ]
@@ -97,5 +101,6 @@
         "notifications"
       ]
     }
-  }
+  },
+  "bar.workspaces.workspaces": 9
 }
