@@ -17,4 +17,11 @@
 .config/pipewire
 .config/Moonlight Game Streaming Project
 .config/yarn
+.config/QtProject
+.config/background
+.config/mimeapps.list
+.config/ow-electron
+.config/uv
+.config/git
+.config/fish
 

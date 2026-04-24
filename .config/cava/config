@@ -259,14 +259,14 @@ sensitivity = 60
 #gradient_color_8 = '#FFF7C0'  # very light orange
 
 gradient = 1
-gradient_color_1 = "#0d0d1f"
-gradient_color_2 = "#A96772"
-gradient_color_3 = "#F3975F"
-gradient_color_4 = "#FE9E64"
-gradient_color_5 = "#DC6B81"
-gradient_color_6 = "#F7768E"
-gradient_color_7 = "#A78ADD"
-gradient_color_8 = "#c2c2c7"
+gradient_color_1 = "#121518"
+gradient_color_2 = "#B2A35C"
+gradient_color_3 = "#5D7083"
+gradient_color_4 = "#B1739C"
+gradient_color_5 = "#68B6C5"
+gradient_color_6 = "#DA96AF"
+gradient_color_7 = "#C5A5BC"
+gradient_color_8 = "#c3c4c5"
 
 #gradient = 1
 #gradient_color_1 = '#FF0000'  # bright red
