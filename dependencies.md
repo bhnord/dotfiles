@@ -23,6 +23,7 @@
   - wireplumber
   - note: requires a restart
 - networkmanager
+- waypaper-git - for wallpaper :3
 
 ### Nice to Have
 
@@ -55,10 +56,9 @@
 - add `brown_city_planet_w.jpg` to ~/Pictures/Wallpapers
 - copy all scripts to Documents/scripts
 
-## make sure to run 
+## make sure to run
+
 - wal -i ///some-picture-file
 
-
 setup network manager timezones
-https://wiki.archlinux.org/title/NetworkManager#Automatically_set_the_timezone
-
+<https://wiki.archlinux.org/title/NetworkManager#Automatically_set_the_timezone>
