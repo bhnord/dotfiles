@@ -64,24 +64,10 @@
       ],
       "right": [
         "volume",
-        "clock",
-        "notifications"
-      ]
-    },
-    "1": {
-      "left": [
-        "dashboard",
-        "workspaces",
-        "windowtitle"
-      ],
-      "middle": [
-        "media"
-      ],
-      "right": [
-        "volume",
         "network",
         "bluetooth",
         "systray",
+        "battery",
         "clock",
         "notifications"
       ]
