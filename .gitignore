@@ -24,4 +24,9 @@
 .config/uv
 .config/git
 .config/fish
+.config/mimeapps*
+.config/Raspberry\ Pi
+.config/nvim/lazy-lock.json
+.config/nvim/lazyvim.json
+.config/sunshine
 
