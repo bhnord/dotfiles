@@ -2,17 +2,14 @@
 font-sans = "System-ui"
 
 [bar]
-scale = 0.75
+scale = 0.8500000238418579
 bg = "transparent"
 button-variant = "icon-square"
 
 [[bar.layout]]
 monitor = "*"
 show = true
-left = [
-    "media",
-    "hyprland-workspaces",
-]
+left = ["hyprland-workspaces"]
 center = ["clock"]
 right = [
     "battery",
