@@ -1,0 +1,38 @@
+[general]
+font-sans = "System-ui"
+
+[bar]
+scale = 0.75
+bg = "transparent"
+button-variant = "icon-square"
+
+[[bar.layout]]
+monitor = "*"
+show = true
+left = [
+    "media",
+    "hyprland-workspaces",
+]
+center = ["clock"]
+right = [
+    "battery",
+    "bluetooth",
+    "network",
+    "microphone",
+    "volume",
+]
+
+[styling.palette]
+bg = "#11111b"
+surface = "#181825"
+elevated = "#1e1e2e"
+fg = "#cdd6f4"
+fg-muted = "#bac2de"
+primary = "#b4befe"
+red = "#f38ba8"
+yellow = "#f9e2af"
+green = "#a6e3a1"
+blue = "#74c7ec"
+
+[wallpaper]
+engine-enabled = false

@@ -43,6 +43,7 @@
 - tlp (manage battery usage)
 - ags-hyprpanel-git? (need to see if works well)
   - ags-hyprpanel-git
+  - wayle-bin now (transitioned)
 
 ## Yay Dependencies ?
 
