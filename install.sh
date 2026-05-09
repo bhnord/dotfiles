@@ -3,13 +3,10 @@
 # List of packages
 packages=(
   hyprland-git
-  ly             # login manager
-  kitty          # shell
-  #  waypaper       # wallpapers
-  swaync         # notification daemon
+  ly    # login manager
+  kitty # shell
+  # swaync # notification daemon
   #  hyprpaper-git  # wallpapers
-  #  hyprsunset-git # blue light filter
-  #  hyprlock-git   # lockscreen
   udiskie
   wlogout
   python-pywal16
@@ -18,11 +15,7 @@ packages=(
   #   rofi-calc # does this work?
   #  zoom
   #  pipes.sh
-  #  firefox
   nvim
-  #  discord
-  #  obsidian
-  #  steam
   nautilus       # document view
   pipewire       # audio
   pipewire-alsa  # audio
@@ -32,12 +25,31 @@ packages=(
   evince         # document viewer: pdf, postscript
   decibels       # audio file player (nicer than ffmpeg)
   # blueberry # bluetooth audio
-  pavucontrol
+  pavucontrol # mixer for pulseaudio
   network-manager-applet
-  neofetch
+  neofetch # fetch
   #  cava # audio bar visualizer
   # bibata-cursor-theme
   # adw-gtk-theme
+  firefox # browser
+)
+
+packages_extras=(
+  slurp          # select screen
+  grim           # screenshots
+  wl-clipboard   # clipboard
+  wayle-bin      # top bar
+  awww           # wallpaper engine
+  waypaper-git   # wallpaper gui
+  hyprsunset-git # blue light filter
+  hyprlock-git   # lockscreen
+  obsidian       # notes
+)
+
+packages_games=(
+  discord # internet chat app
+  steam   # games
+
 )
 
 sudo pacman -Sy --noconfirm

@@ -2,48 +2,30 @@
 
 ## Pacman Dependencies
 
-//note: add sound setup dependencies
-
 ### Pretty Much Needed
 
 - sudo
-- dhcpcd
-  - needed for wifi
+- networkmanager
 
-### Usually Wanted for Desktop Environment
+### More Manual Installs
 
 - yay (aur package manager)
 - zsh (make default with chsh -s /bin/zsh)
 - xdg-desktop-portal-hyprland-git (screen share)
 - brightnessctl
-- zsh, oh-my-zsh
-- pipewire (and all the needed packages -> [pipewire wiki](https://wiki.archlinux.org/title/PipeWire))
-  - pipewire-alsa
-  - pipewire-pulse
-  - wireplumber
-  - note: requires a restart
-- networkmanager
-- waypaper-git - for wallpaper :3
 
 ### Nice to Have
 
-- steam [steam archwiki](https://wiki.archlinux.org/title/Steam)
   - make sure you install the correct graphics version for your gpu [wiki](https://wiki.archlinux.org/title/Vulkan#Installation)
   - vulkan-tools to check to make sure it's working
   - once downloaded:
     - Steam -> Compatibility -> steam play for all other titles -> Proton (Hotfix)
 - discord:
   - .config/discord/settings.json -> add `"SKIP_HOST_UPDATE": true`
-- slurp (select portion of screen)
-- grim (screenshots)
-- wl-clipboard (clipboard)
 - hyprpicker (color picker)
 - [lushwal for nvim](https://github.com/oncomouse/lushwal.nvim)
   - colors for LazyVim
 - tlp (manage battery usage)
-- ags-hyprpanel-git? (need to see if works well)
-  - ags-hyprpanel-git
-  - wayle-bin now (transitioned)
 
 ## Yay Dependencies ?
 
