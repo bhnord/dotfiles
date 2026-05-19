@@ -44,6 +44,7 @@ packages_extras=(
   hyprsunset-git # blue light filter
   hyprlock-git   # lockscreen
   obsidian       # notes
+  tailscale      # lan / vpn
 )
 
 packages_games=(

@@ -45,3 +45,18 @@
 
 setup network manager timezones
 <https://wiki.archlinux.org/title/NetworkManager#Automatically_set_the_timezone>
+
+
+## installing steam instructions:
+enable multilib, since steam is 32b binary: https://wiki.archlinux.org/title/Official_repositories#multilib
+update pacman `pacman -Syu`
+
+## syncing time zone
+1. `sudo timedatectl set-ntp true`
+2. `timedatectl status`
+  - ensure that clock synchronized and ntp service active
+3. set  timezone if needed:
+  - `timedatectl list-timezones`
+  - `sudo timedatectl set-timezone <Region/City>` (e.g. America/New_York for east coast)
+  - check with `timedatectl status`
+
