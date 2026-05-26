@@ -12,6 +12,7 @@
 - yay (aur package manager)
 - zsh (make default with chsh -s /bin/zsh)
 - xdg-desktop-portal-hyprland-git (screen share)
+  - switch to vencord ? 
 - brightnessctl
 
 ### Nice to Have

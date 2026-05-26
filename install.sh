@@ -15,7 +15,6 @@ packages=(
   #   rofi-calc # does this work?
   #  zoom
   #  pipes.sh
-  nvim
   nautilus       # document view
   pipewire       # audio
   pipewire-alsa  # audio
@@ -32,6 +31,16 @@ packages=(
   # bibata-cursor-theme
   # adw-gtk-theme
   firefox # browser
+
+)
+
+## cli utilities
+packages_cli=(
+  nvim
+  ripgrep
+  fd
+  lazygit
+  fzf
 )
 
 packages_extras=(
@@ -50,7 +59,6 @@ packages_extras=(
 packages_games=(
   discord # internet chat app
   steam   # games
-
 )
 
 sudo pacman -Sy --noconfirm
