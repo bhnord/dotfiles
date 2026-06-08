@@ -3,3 +3,7 @@
 # This ensures workspaces 1, 2, 3, 4, and 5 always show up
 min-workspace-count=4
 monitor-specific=true
+
+[modules.weather]
+location = "Malden"
+units = "imperial"

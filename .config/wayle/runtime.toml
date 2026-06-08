@@ -12,11 +12,11 @@ show = true
 left = ["hyprland-workspaces"]
 center = ["clock"]
 right = [
-    "battery",
     "bluetooth",
     "network",
     "microphone",
     "volume",
+    "cpu",
 ]
 
 [styling.palette]
