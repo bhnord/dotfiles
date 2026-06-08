@@ -7,7 +7,7 @@ bg = "transparent"
 button-variant = "icon-square"
 
 [[bar.layout]]
-monitor = "*"
+monitor = "DP-2"
 show = true
 left = ["hyprland-workspaces"]
 center = ["clock"]
@@ -17,6 +17,17 @@ right = [
     "microphone",
     "volume",
     "cpu",
+]
+
+[[bar.layout]]
+monitor = "HDMI-A-1"
+extends = "DP-2"
+show = true
+left = []
+center = []
+right = [
+    "microphone",
+    "volume",
 ]
 
 [styling.palette]
@@ -30,6 +41,9 @@ red = "#f38ba8"
 yellow = "#f9e2af"
 green = "#a6e3a1"
 blue = "#74c7ec"
+
+[modules.hyprland-workspaces]
+min-workspace-count = 8
 
 [wallpaper]
 engine-enabled = false
