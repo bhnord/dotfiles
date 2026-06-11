@@ -30,6 +30,19 @@ right = [
     "volume",
 ]
 
+[[bar.layout]]
+monitor = "eDP-1"
+extends = "DP-2"
+show = true
+left = []
+center = []
+right = [
+    "battery",
+    "bluetooth",
+    "network",
+    "volume",
+]
+
 [styling.palette]
 bg = "#11111b"
 surface = "#181825"
