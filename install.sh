@@ -2,11 +2,11 @@
 
 # List of packages
 packages=(
-  hyprland-git
+  hyprland
   ly    # login manager
   kitty # shell
   # swaync # notification daemon
-  #  hyprpaper-git  # wallpapers
+  #  hyprpaper # wallpapers
   udiskie
   wlogout
   python-pywal16
@@ -44,16 +44,16 @@ packages_cli=(
 )
 
 packages_extras=(
-  slurp          # select screen
-  grim           # screenshots
-  wl-clipboard   # clipboard
-  wayle-bin      # top bar
-  awww           # wallpaper engine
-  waypaper-git   # wallpaper gui
-  hyprsunset-git # blue light filter
-  hyprlock-git   # lockscreen
-  obsidian       # notes
-  tailscale      # lan / vpn
+  slurp        # select screen
+  grim         # screenshots
+  wl-clipboard # clipboard
+  wayle-bin    # top bar
+  awww         # wallpaper engine
+  waypaper     # wallpaper gui
+  hyprsunset   # blue light filter
+  hyprlock     # lockscreen
+  obsidian     # notes
+  tailscale    # lan / vpn
 )
 
 packages_games=(
