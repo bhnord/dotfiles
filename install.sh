@@ -73,3 +73,36 @@ for pkg in "${packages[@]}"; do
 done
 
 echo "All packages installed."
+
+# Install CLI packages
+for pkg in "${packages_cli[@]}"; do
+  echo "Installing $pkg..."
+  if ! pacman -Qq "$pkg" &>/dev/null; then
+    yay -S --noconfirm --needed "$pkg"
+  fi
+  echo "$pkg is already installed"
+done
+
+echo "All CLI packages installed."
+
+# Install CLI packages
+for pkg in "${packages_extras[@]}"; do
+  echo "Installing $pkg..."
+  if ! pacman -Qq "$pkg" &>/dev/null; then
+    yay -S --noconfirm --needed "$pkg"
+  fi
+  echo "$pkg is already installed"
+done
+
+echo "All Extras packages installed."
+
+# Install CLI packages
+for pkg in "${packages_games[@]}"; do
+  echo "Installing $pkg..."
+  if ! pacman -Qq "$pkg" &>/dev/null; then
+    yay -S --noconfirm --needed "$pkg"
+  fi
+  echo "$pkg is already installed"
+done
+
+echo "All Games packages installed."
