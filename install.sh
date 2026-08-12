@@ -57,8 +57,10 @@ packages_extras=(
 )
 
 packages_games=(
-  discord # internet chat app
-  steam   # games
+  vesktop                     # internet chat app / discord
+  xdg-desktop-portal          # screen share discord
+  xdg-desktop-portal-hyprland # screen share discord
+  steam                       # games
 )
 
 sudo pacman -Sy --noconfirm
