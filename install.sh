@@ -37,6 +37,7 @@ packages=(
 ## cli utilities
 packages_cli=(
   nvim
+  keyd # remap keys
   ripgrep
   fd
   lazygit
