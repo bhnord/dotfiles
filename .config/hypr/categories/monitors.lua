@@ -1,21 +1,10 @@
 ---@module 'hl'
 
 -- Monitors
-
-local function get_hostname()
-	local f = io.open("/etc/hostname", "r")
-	if not f then
-		return ""
-	end
-	local name = f:read("*l") -- reads first line
-	f:close()
-	return name and name:gsub("%s+", "") or ""
-end
-
-local hostname = get_hostname()
+local system = require("categories.system")
 
 -- Desktop Monitors
-if hostname == "bhnord-desktop" then
+if system.is_desktop then
 	-- main
 	hl.monitor({
 		output = "DP-2",
@@ -37,7 +26,7 @@ if hostname == "bhnord-desktop" then
 		},
 	})
 -- Laptop Monitors
-elseif hostname == "arch" then
+elseif system.is_laptop then
 	hl.monitor({
 		output = "eDP-1",
 		mode = "1440x900@120",

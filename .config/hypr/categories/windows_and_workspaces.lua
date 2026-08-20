@@ -1,6 +1,7 @@
 ---@module 'hl'
 
 -- Windows and Workspaces
+local system = require("categories.system")
 
 -- Ignore maximize requests from apps. You'll probably like this.
 
@@ -81,45 +82,67 @@ hl.window_rule({
 
 -- Monitor
 
-hl.workspace_rule({
-	workspace = 1,
-	monitor = "DP-2",
-})
+if system.is_desktop then
+	hl.workspace_rule({
+		workspace = 1,
+		monitor = "DP-2",
+	})
 
-hl.workspace_rule({
-	workspace = 2,
-	monitor = "DP-2",
-})
+	hl.workspace_rule({
+		workspace = 2,
+		monitor = "DP-2",
+	})
 
-hl.workspace_rule({
-	workspace = 3,
-	monitor = "DP-2",
-})
+	hl.workspace_rule({
+		workspace = 3,
+		monitor = "DP-2",
+	})
 
-hl.workspace_rule({
-	workspace = 4,
-	monitor = "DP-2",
-})
+	hl.workspace_rule({
+		workspace = 4,
+		monitor = "DP-2",
+	})
 
-hl.workspace_rule({
-	workspace = 5,
-	monitor = "HDMI-A-1",
-})
+	hl.workspace_rule({
+		workspace = 5,
+		monitor = "HDMI-A-1",
+	})
 
-hl.workspace_rule({
-	workspace = 6,
-	monitor = "HDMI-A-1",
-})
+	hl.workspace_rule({
+		workspace = 6,
+		monitor = "HDMI-A-1",
+	})
 
-hl.workspace_rule({
-	workspace = 7,
-	monitor = "HDMI-A-1",
-})
+	hl.workspace_rule({
+		workspace = 7,
+		monitor = "HDMI-A-1",
+	})
 
-hl.workspace_rule({
-	workspace = 8,
-	monitor = "HDMI-A-1",
-})
+	hl.workspace_rule({
+		workspace = 8,
+		monitor = "HDMI-A-1",
+	})
+elseif system.is_laptop then
+	hl.workspace_rule({
+		workspace = 1,
+		monitor = "eDP-1",
+	})
+
+	hl.workspace_rule({
+		workspace = 2,
+		monitor = "eDP-1",
+	})
+
+	hl.workspace_rule({
+		workspace = 3,
+		monitor = "eDP-1",
+	})
+
+	hl.workspace_rule({
+		workspace = 4,
+		monitor = "eDP-1",
+	})
+end
 
 -- XWayland video bridge
 
