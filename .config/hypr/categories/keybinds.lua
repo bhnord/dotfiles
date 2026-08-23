@@ -39,7 +39,7 @@ bind("SHIFT + J", hl.dsp.layout("togglesplit"))
 bind("SHIFT + R", hl.dsp.exec_cmd("waypaper --random --state-file ~/.config/waypaper/state.ini"))
 bind("SHIFT + L", hl.dsp.exec_cmd("hyprlock"))
 bind("SHIFT + W", hl.dsp.exec_cmd("wlogout"))
-bind("SHIFT + S", hl.dsp.exec_cmd('grim -g "$(slurp)"-| wl-copy'))
+bind("SHIFT + S", hl.dsp.exec_cmd('grim -g "$(slurp)" - | wl-copy'))
 bind("I", hl.dsp.exec_cmd("hyprsysteminfo"))
 bind("P", hl.dsp.exec_cmd("hyprpicker| wl-copy"))
 
