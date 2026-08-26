@@ -65,6 +65,14 @@ packages_games=(
   steam                       # games
 )
 
+packages_desktop=(
+  ddcutil
+)
+
+packages_laptop=(
+  brightnessctl
+)
+
 sudo pacman -Sy --noconfirm
 
 # Install packages
