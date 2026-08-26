@@ -53,6 +53,7 @@ packages_extras=(
   waypaper     # wallpaper gui
   hyprsunset   # blue light filter
   hyprlock     # lockscreen
+  hypridle     # idle timeout
   obsidian     # notes
   tailscale    # lan / vpn
 )
