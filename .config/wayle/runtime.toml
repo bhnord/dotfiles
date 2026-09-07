@@ -7,7 +7,7 @@ bg = "transparent"
 button-variant = "icon-square"
 
 [[bar.layout]]
-monitor = "DP-2"
+monitor = "DP-1"
 show = true
 left = ["hyprland-workspaces"]
 center = ["clock"]
@@ -21,7 +21,7 @@ right = [
 
 [[bar.layout]]
 monitor = "HDMI-A-1"
-extends = "DP-2"
+extends = "DP-1"
 show = true
 left = []
 center = []
