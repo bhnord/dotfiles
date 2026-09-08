@@ -16,6 +16,7 @@ disk: "60GiB"
 
 mounts:
   - location: "~/ai-workspace"
+    mountPoint: "{{.Home}}/ai-workspace"
     writable: true
 
 # Forward ports so you can hit APIs/UIs running inside the VM from your host
