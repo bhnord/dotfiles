@@ -33,7 +33,7 @@ right = [
 
 [[bar.layout]]
 monitor = "eDP-1"
-extends = "DP-2"
+extends = "DP-1"
 show = true
 left = []
 center = []
