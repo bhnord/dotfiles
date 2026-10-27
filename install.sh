@@ -56,6 +56,7 @@ packages_extras=(
   hypridle     # idle timeout
   obsidian     # notes
   tailscale    # lan / vpn
+  hyprpicker   # color picker
 )
 
 packages_games=(

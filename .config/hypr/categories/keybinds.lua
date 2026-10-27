@@ -55,6 +55,7 @@ bind("SHIFT + C", hl.dsp.exec_cmd("kitty"))
 bind("SHIFT + F", hl.dsp.exec_cmd("firefox"))
 bind("SHIFT + O", hl.dsp.exec_cmd("obsidian"))
 bind("SHIFT + T", hl.dsp.exec_cmd("signal-desktop"))
+bind("SHIFT + D", hl.dsp.exec_cmd("vesktop"))
 
 -- Move focus with mainMod + vim keys
 
