@@ -31,7 +31,6 @@ packages=(
   # bibata-cursor-theme
   # adw-gtk-theme
   firefox # browser
-
 )
 
 ## cli utilities
@@ -44,7 +43,11 @@ packages_cli=(
   fzf
 )
 
-packages_extras=(
+packages_cli_extras=(
+  proton-vpn-cli # VPN
+)
+
+packages_desktop_extras=(
   slurp        # select screen
   grim         # screenshots
   wl-clipboard # clipboard
@@ -64,10 +67,6 @@ packages_games=(
   xdg-desktop-portal          # screen share discord
   xdg-desktop-portal-hyprland # screen share discord
   steam                       # games
-)
-
-packages_desktop=(
-  ddcutil
 )
 
 packages_laptop=(
@@ -98,8 +97,8 @@ done
 
 echo "All CLI packages installed."
 
-# Install CLI packages
-for pkg in "${packages_extras[@]}"; do
+# Install CLI Extras packages
+for pkg in "${packages_cli_extras[@]}"; do
   echo "Installing $pkg..."
   if ! pacman -Qq "$pkg" &>/dev/null; then
     yay -S --noconfirm --needed "$pkg"
@@ -107,9 +106,20 @@ for pkg in "${packages_extras[@]}"; do
   echo "$pkg is already installed"
 done
 
-echo "All Extras packages installed."
+echo "All CLI Extras packages installed."
 
-# Install CLI packages
+# Install Destkop Extras packages
+for pkg in "${packages_desktop_extras[@]}"; do
+  echo "Installing $pkg..."
+  if ! pacman -Qq "$pkg" &>/dev/null; then
+    yay -S --noconfirm --needed "$pkg"
+  fi
+  echo "$pkg is already installed"
+done
+
+echo "All Desktop Extras packages installed."
+
+# Install Games packages
 for pkg in "${packages_games[@]}"; do
   echo "Installing $pkg..."
   if ! pacman -Qq "$pkg" &>/dev/null; then
